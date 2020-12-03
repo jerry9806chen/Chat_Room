@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Chat Server</title>
+		<link rel="stylesheet" href="./css/bootstrap.min.css">
+		<link rel="stylesheet" href="./css/styles.css">
+		<link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+		<link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+	</head>
+	<body>
+		<div class="vertical-center bg-danger">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-md-offset-4 well">
+						<h1 class="text-center text-primary">Join Chat</h1>
+
+						<form action="/chat.html">
+							<div class="form-group">
+								<label class="text-primary">Display Name</label>
+								<div class="input-group">
+									<span class="input-group-addon">
+										<i class="glyphicon glyphicon-user"></i>
+									</span>
+									<input type="text" name="name" class="form-control"/>
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label class="text-primary">Room Name</label>
+								<div class="input-group">
+									<span class="input-group-addon">
+										<i class="glyphicon glyphicon-comment"></i>
+									</span>
+									<input type="text" name="room" class="form-control"/>		
+								</div>
+							</div>
+
+							<div class="form-group">
+								<input type="submit" value="Join Chat" class="btn btn-success btn-block"/>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>	
+		</div>		
+	</body>
+</html>
